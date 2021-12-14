@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+
+
+.App{
+  background-color: rgb(224, 215, 243);
+  height: 100vh;
+  text-align: center;
+  
+}
+.heading{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #40005d;
+  font-size: 30px;
+  letter-spacing: 6px;
+  padding: 20px;
+  
+}
+.expenses {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  background-color: rgb(224, 215, 243);
+  
+  padding: 20px;
+
+
+  
+}
+

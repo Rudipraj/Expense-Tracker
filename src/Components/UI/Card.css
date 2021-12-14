@@ -1,0 +1,16 @@
+.card{
+    
+   
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        padding: 0.5rem;
+        margin: 1rem 0;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        height: 100px;
+    
+}

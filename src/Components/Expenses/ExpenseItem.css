@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+
+
+    .expense-item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        padding: 0.5rem;
+        margin-top: 10px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        border-radius: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        height: 100px;
+        width: 80%;
+        background-color: burlywood;
+    
+}
+
+.expense-description{
+    
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    gap: 1rem;
+    width: 80%;
+    flex: 1;
+    
+    
+}
+.title{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    
+    flex-direction: column;
+    font-size: 32px;
+    flex: 1;
+    margin: 0 1rem;
+    width: 200px;
+    text-align: center;
+    
+   
+    
+}
+.expense-price{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+   
+    
+}
+.button{
+    height: 32px;
+    color: white;
+    background-color: #802733;
+    border: 4px solid #802733;
+    border-radius: 4px;
+    margin: 4px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.button:hover{
+    margin: 4px;
+    height: 32px;
+    color: white;
+    background-color: rgb(54, 8, 92);
+    border: 1px solid rgb(54, 8, 92);
+    
+}

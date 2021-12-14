@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+.new-expense__controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    height: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    margin-left: 400px;
+    padding: 30px;
+
+}
+.new-expense__control{
+    padding: 20px;
+    width: 400px;
+    
+}
+.label{
+    width: 200px;
+    padding: 10px;
+    letter-spacing: 4px;
+    
+}
+.new-inputlabel{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid white;
+    resize: none;
+    outline: none;
+    border-radius: 8px;
+   
+
+}
+
+.new-inputlabelamt{
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-right: 23px;
+    border: 1px solid white;
+    resize: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: white;
+}
+.new-inputlabeldate{
+    
+
+    resize: none;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-left: 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgbwhite
+}
+.form-button{
+    
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 150px;
+    color: white;
+    background-color: #802733;
+    border: 1px solid #802733;
+    border-radius: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    
+}
+.form-button:hover{
+    
+    color: white;
+    background-color: rgb(54, 8, 92);
+    border: 1px solid rgb(54, 8, 92);
+    
+}
